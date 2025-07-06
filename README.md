@@ -17,4 +17,7 @@ This project simulates and implements dynamic pricing models for 14 urban parkin
 | Version Control  | Git, GitHub                   |
 
 ---
+ARCHITECTURE DIAGRAM
+
+![ARCHITECTURE DIAGRAM](https://github.com/user-attachments/assets/98944615-563e-4544-a9ef-1e41b78ff0a8)
 
