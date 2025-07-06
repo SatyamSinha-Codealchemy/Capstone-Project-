@@ -27,30 +27,30 @@ ARCHITECTURE DIAGRAM
 This diagram outlines the architecture and workflow of our Dynamic Parking Pricing Model:
 
 CSV Dataset (Parking Data)
-Historical parking data is used as the foundation of the model.
+=> Historical parking data is used as the foundation of the model.
 
 Pathway Data Ingestion
-The raw dataset is imported and validated for structure and consistency.
+=> The raw dataset is imported and validated for structure and consistency.
 
-Preprocessing: Clean timestamps and features
+* Preprocessing: Clean timestamps and features
 
-Timestamps are standardized.
+=> Timestamps are standardized.
 
-Missing or noisy values are handled.
+=> Missing or noisy values are handled.
 
 Features relevant to pricing are engineered.
 
 Model 1: Linear Pricing
 
-A basic pricing model based on fixed time-based increments.
+=> A basic pricing model based on fixed time-based increments.
 
 Model 2: Demand-Based Pricing
 
-Adjusts prices dynamically depending on demand levels at different hours/days.
+=> Adjusts prices dynamically depending on demand levels at different hours/days.
 
 Model 3: Competitive Pricing
 
-Simulates competition by factoring in nearby parking prices or theoretical competitors.
+=> Simulates competition by factoring in nearby parking prices or theoretical competitors.
 
 Final Price Calculation
 
