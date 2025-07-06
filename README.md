@@ -54,13 +54,13 @@ Simulates competition by factoring in nearby parking prices or theoretical compe
 
 Final Price Calculation
 
-Combines outputs of the models to determine optimal price using weighted logic.
+=> Combines outputs of the models to determine optimal price using weighted logic.
 
 Bokeh Visualization
 
-Interactive plots are generated to visualize pricing trends and model outputs.
+=> Interactive plots are generated to visualize pricing trends and model outputs.
 
 Display Adjusted Prices in Notebook
 
-Final prices are output in a Jupyter Notebook for quick inspection and further analysis.
+=> Final prices are output in a Jupyter Notebook for quick inspection and further analysis.
 
