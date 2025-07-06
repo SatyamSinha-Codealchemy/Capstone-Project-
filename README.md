@@ -18,14 +18,15 @@ This project simulates and implements dynamic pricing models for 14 urban parkin
 
 ---
 
+
 ## 🏗️ Architecture Diagram (Mermaid)
 
 ```mermaid
 graph TD
-    A[CSV Dataset (Historical Parking Data)] --> B[Pathway Data Ingestion]
-    B --> C[Preprocessing: Timestamp + Features]
-    C --> D1[Model 1: Linear Pricing]
-    C --> D2[Model 2: Demand-Based Pricing]
-    C --> D3[Model 3: Competitive Pricing]
-    D3 --> E[Real-Time Price Adjustment + Rerouting]
-    E --> F[Bokeh + Panel Visualizations]
+  A[CSV Dataset (Historical Parking Data)] --> B[Pathway Data Ingestion]
+  B --> C[Preprocessing: Timestamp + Features]
+  C --> D1[Model 1: Linear Pricing]
+  C --> D2[Model 2: Demand-Based Pricing]
+  C --> D3[Model 3: Competitive Pricing]
+  D3 --> E[Real-Time Price Adjustment + Rerouting]
+  E --> F[Bokeh + Panel Visualizations]
